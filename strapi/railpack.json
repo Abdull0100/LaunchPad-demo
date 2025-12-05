@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "steps": {
+    "install": {
+      "commands": ["yarn install"]
+    }
+  }
+}
+```
+
+---
+
+### Option 2: Config File + Environment Variable
+
+Keep your `railway.json` as-is and just add the environment variable in Railway's dashboard:
+```
+RAILPACK_INSTALL_COMMAND=yarn install
