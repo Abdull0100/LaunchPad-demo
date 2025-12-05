@@ -1,8 +1,5 @@
 {
   "$schema": "https://schema.railpack.com",
-  "packages": {
-    "yarn": "4"
-  },
   "steps": {
     "install": {
       "commands": ["yarn install"]
